@@ -7,7 +7,8 @@ echo -e "http://dl-cdn.alpinelinux.org/alpine/edge/community" \
 # install docker & open-vm-tools
 apk update
 apk add docker \
-        open-vm-tools
+        open-vm-tools \
+        vlan
 rc-update add docker
 rc-update add open-vm-tools boot
 
