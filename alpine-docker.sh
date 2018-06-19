@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # add docker rep
-echo -e "http://dl-cdn.alpinelinux.org/alpine/edge/community" \
+echo -e "http://dl-cdn.alpinelinux.org/alpine/latest-stable/community/" \
     >> /etc/apk/repositories
 
 # install docker & open-vm-tools
